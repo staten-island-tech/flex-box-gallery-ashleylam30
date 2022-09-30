@@ -3,6 +3,7 @@ html, body, *{
     margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -12,10 +13,32 @@ h1 {
     text-align: center;
 }
 
-body{
-    font-size: 100px;
-    
+.flex-container {
+    display: flexbox;
+}
 
+.flex-box {
+    font-family: poppins;
+    font-size: 4rem;
+    width: 50rem;
+    height: 65rem;
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 3rem;
+    border-radius: 2rem;
+}
+#img {
+    width: 80%;
+    height: 50rem;
+    border-radius: 2rem;
+}
+
+.span{
+   
+}
+h2 {
+   margin-top: 1rem;
+}
 /* .parent{
 
     font-size: 30px;
