@@ -4,28 +4,35 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
     font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
 
 }
 
 
 h1 {
     font-size: 100px;
-    text-align: center;
+ text-align: center;
+  
 }
 
 .flex-container {
-    display: flexbox;
+    display: flex;
+    
 }
 
 .flex-box {
     font-family: poppins;
-    font-size: 4rem;
-    width: 50rem;
+    font-size: 3rem;
+    width: 95rem;
     height: 65rem;
-    background-color: lightgreen;
+    background-color: darkblue;
     text-align: center;
     padding-top: 3rem;
     border-radius: 2rem;
+    margin-top: 40rem;
+   margin-left: 2rem;
+    
+
 }
 #img {
     width: 80%;
@@ -38,6 +45,10 @@ h1 {
 }
 h2 {
    margin-top: 1rem;
+}
+.subheader, span{
+    background-color: darkblue;
+    color: white;
 }
 /* .parent{
 
