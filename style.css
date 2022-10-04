@@ -12,37 +12,41 @@ html, body, *{
 h1 {
     font-size: 100px;
  text-align: center;
+ color: rebeccapurple;
   
 }
 
 .flex-container {
     display: flex;
-    
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
 }
 
 .flex-box {
     font-family: poppins;
     font-size: 3rem;
-    width: 95rem;
-    height: 65rem;
+    width: 50rem;
+    height: 60rem;
     background-color: darkblue;
     text-align: center;
-    padding-top: 3rem;
     border-radius: 2rem;
-    margin-top: 40rem;
-   margin-left: 2rem;
+    margin-top: 10rem;
+  margin-left: 2rem;
     
 
 }
 #img {
-    width: 80%;
-    height: 50rem;
+    width: 96%;
+    height: 45rem;
     border-radius: 2rem;
+    object-fit: cover;
+    margin
 }
 
-.span{
-   
-}
+
 h2 {
    margin-top: 1rem;
 }
