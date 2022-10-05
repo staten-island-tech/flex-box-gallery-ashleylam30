@@ -2,9 +2,9 @@ html, body, *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-size: 62.5%; /* Normally 100% is 16px we want the size to be 10px so we do 62.5% */
+    font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
-    background-color: lightblue;
+  background-image: url(https://wallpaperaccess.com/full/7930058.jpg);
 
 }
 
@@ -12,18 +12,22 @@ html, body, *{
 h1 {
     font-size: 100px;
  text-align: center;
- color: rebeccapurple;
+ color: slateblue;
+ font-weight: bolder;
   
 }
 
 .flex-container {
     display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
+ 
+ 
 
 }
+
 
 .flex-box {
     font-family: poppins;
@@ -35,6 +39,7 @@ h1 {
     border-radius: 2rem;
     margin-top: 10rem;
   margin-left: 2rem;
+  box-shadow: 20px 20px 15px #4f5aaa
     
 
 }
@@ -43,16 +48,18 @@ h1 {
     height: 45rem;
     border-radius: 2rem;
     object-fit: cover;
-    margin
-}
+  margin-top: 2rem;
 
-
-h2 {
-   margin-top: 1rem;
 }
-.subheader, span{
-    background-color: darkblue;
-    color: white;
+h2{
+    margin-top: 1rem;
+}
+.subheader, span,#names{
+ color: white;
+}
+#names{
+   font-size: 3rem; 
+   font-weight: bold;
 }
 /* .parent{
 
