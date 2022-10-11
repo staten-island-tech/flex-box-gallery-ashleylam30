@@ -7,6 +7,11 @@ html, body, *{
     
 
 }
+
+@media screen and (max-width: 500px) {
+/*     font-size: 2px; */
+ }
+
 html{
     background: linear-gradient(rgb(143, 38, 192),rgb(173, 19, 19));
 }
@@ -16,9 +21,9 @@ h1 {
     font-size: 150px;
  text-align: center;
  color: rgba(253, 253, 253, 0.836);
- text-shadow: 0 0 1rem #e2cbec, 0 0 3rem #cdd2ff,0 0 5rem #ffb1fb;
-
+ text-shadow: 0 0 2rem #e2cbec, 0 0 3rem #cdd2ff,0 0 5rem #ffb1fb;
  font-weight: bolder;
+ 
   
 }
 
@@ -70,6 +75,8 @@ h2{
    font-size: 3rem; 
    font-weight: bold;
 }
+.flex-box:
+
 /* .parent{
 
     font-size: 30px;
