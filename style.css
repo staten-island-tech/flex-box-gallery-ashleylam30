@@ -18,17 +18,21 @@ html{
 
 
 h1 {
+    
     font-size: 150px;
  text-align: center;
  color: rgba(253, 253, 253, 0.836);
  text-shadow: 0 0 2rem #e2cbec, 0 0 3rem #cdd2ff,0 0 5rem #ffb1fb;
  font-weight: bolder;
  
-  
+}
+.header-title:hover {
+scale: 1.5;
 }
 
 .flex-container {
     display: flex;
+    flex-grow: 1;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
@@ -42,11 +46,11 @@ h1 {
 .flex-box {
     font-family: poppins;
     font-size: 3rem;
-    width: 50rem;
-    height: 60rem;
+    width: 45rem;
+    height: 65rem;
     background-color: darkblue;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin-top: 10rem;
   margin-left: 2rem;
   box-shadow: 20px 20px 15px #4f5aaa;
@@ -55,7 +59,11 @@ h1 {
   background-color: rgba(70, 38, 169, 0.6);
   border-radius: 12px;
   border: 10px solid rgba(209, 213, 219, 0.3);
+  transition: all 0.2s;
 
+}
+.flex-box:hover {
+   scale:1.1;
 }
 #img {
     width: 96%;
