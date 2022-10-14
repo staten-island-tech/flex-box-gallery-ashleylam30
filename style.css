@@ -24,10 +24,16 @@ h1 {
  color: rgba(253, 253, 253, 0.836);
  text-shadow: 0 0 2rem #e2cbec, 0 0 3rem #cdd2ff,0 0 5rem #ffb1fb;
  font-weight: bolder;
- 
+
 }
 .header-title:hover {
-scale: 1.5;
+    animation-name: fadeInOut, moveLeft300px, bounce;
+    animation-duration: 2.5s, 5s, 1s;
+    animation-iteration-count: 2, 1, 5;   
+    scale: 1.5;
+
+
+
 }
 
 .flex-container {
@@ -62,6 +68,35 @@ scale: 1.5;
   transition: all 0.2s;
 
 }
+div .flex-box {
+    position:relative;
+    height:200px;
+    overflow:hidden;
+    aspect-ratio: 1 / 1;
+    border: solid black 1px;
+    clip-path: border-box;
+    }
+    div::before {
+    z-index:-1;
+    content:'';
+    position:absolute;
+    inset: -25%;
+    border-image: conic-gradient(
+        hsl(297.3, 84.6%, 20.4%),
+        rgb(199, 39, 74),
+        hsl(297.3, 84.6%, 20.4%)
+    );
+    animation: 3s linear infinite rot;
+    }
+    @keyframes rot {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform:rotate(360);
+        transition: 2s;
+      }
+    }
 .flex-box:hover {
    scale:1.1;
 }
