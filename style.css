@@ -32,7 +32,7 @@ h1 {
 
 
 
-.flex-container {
+.container {
     display: flex;
     flex-grow: 1;
   flex-wrap: wrap;
@@ -46,7 +46,7 @@ h1 {
 }
 
 
-.flex-box {
+.card {
     font-family: poppins;
     font-size: 3rem;
     width: 45rem;
@@ -67,11 +67,19 @@ h1 {
 }
 
 
-.flex-box:hover {
-   scale:1.1;
-   rotate: -360;
+#card1:hover {
+   scale: 1.05;
 }
-#img {
+
+#card2:hover {
+    scale: 0.95;
+}
+
+#card3:hover {
+    transform: rotate(180deg)
+}
+
+.img {
     width: 96%;
     height: 45rem;
     border-radius: 2rem;
