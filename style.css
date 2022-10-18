@@ -19,7 +19,7 @@ html{
 
 h1 {
     
-    font-size: 150px;
+    font-size: 125px;
  text-align: center;
  color: rgba(253, 253, 253, 0.836);
  text-shadow: 0 0 2rem #e2cbec, 0 0 3rem #cdd2ff,0 0 5rem #ffb1fb;
@@ -66,37 +66,105 @@ h1 {
 
 }
 
-
+#card1 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
 #card1:hover {
-   scale: 1.05;
+   scale: 1.15;
+   filter: grayscale(0%);
+   -webkit-filter: grayscale(0%);
+   transition: 1s ease;
 }
 
 #card2:hover {
-    scale: 0.95;
+   transform: rotateY(180deg);
+   transition: .2 ease-in-out;
 }
 
 #card3:hover {
     transform: rotate(180deg)
+    
+}
+#card4:hover {
+    -webkit-transform: rotate(-13deg) scale(0.95);
+	transform: rotate(-13deg) scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#card5:hover {
+    opacity: 1;
+	-webkit-animation: flash 2s;
+	animation: flash 2s;
+}
+@keyframes flash {
+    0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#card6:hover {
+    -webkit-transform: rotate(13deg) scale(0.95);
+	transform: rotate(13deg) scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
-.img {
-    width: 96%;
-    height: 45rem;
-    border-radius: 2rem;
-    object-fit: cover;
-  margin-top: 2rem;
+#card7:hover{
+    scale: 0.75;
+    transform: .3s ease-in-out;
+}
+#card8 {
+    -webkit-filter: blur(0);
+	filter: blur(0);
 
 }
-h2{
-    margin-top: 1rem;
+
+#card8:hover{
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
-.subheader, span,#names{
- color: white;
+#card9 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
-#names{
-   font-size: 3rem; 
-   font-weight: bold;
+#card9:hover{
+   filter: grayscale(0%);
+   -webkit-filter: grayscale(0%);
+   transition: 1s ease;
+
 }
+
+
+    .img {
+        width: 96%;
+        height: 45rem;
+        border-radius: 2rem;
+        object-fit: cover;
+      margin-top: 2rem;
+    
+    }
+    h2{
+        margin-top: 1rem;
+    }
+    .subheader, span,#names{
+     color: white;
+    }
+    #names{
+       font-size: 3rem; 
+       font-weight: bold;
+    } 
+
+
 
 
 
